@@ -18,6 +18,6 @@ Since I'm using React-router to do routing, on each tab click I would dispatch a
 
 ### Thanks:
 
-1.https://github.com/cattla/hacker-news-clone
-2.https://github.com/insin/react-hn
+1. https://github.com/cattla/hacker-news-clone
+2. https://github.com/insin/react-hn
 
