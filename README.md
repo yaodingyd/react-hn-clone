@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is a Hack News clone using React, Redux and React-router with Firebase API.
 
+run `npm install&&npm start` to see demo. 
+
 ### Actions
 
 The app's action is simple enough: there is request and receive for each story, user and comment.
@@ -16,6 +18,6 @@ Since I'm using React-router to do routing, on each tab click I would dispatch a
 
 ### Thanks:
 
-https://github.com/cattla/hacker-news-clone
-https://github.com/insin/react-hn
+1.https://github.com/cattla/hacker-news-clone
+2.https://github.com/insin/react-hn
 
