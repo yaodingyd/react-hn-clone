@@ -4,10 +4,6 @@ import { Link } from 'react-router'
 
 
 class Comment extends Component {
-  constructor(props) {
-    super(props)
-  }
-
   onClick = () => {
     this.refs.child.style.display = 'none'
   }
