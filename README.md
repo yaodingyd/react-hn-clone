@@ -2,7 +2,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is a Hack News clone using React, Redux and React-router with Firebase API.
 
-run `npm install&&npm start` to see demo. 
+run `npm install&&npm start` to see local demo. 
+
+Demo page is [here](https://hackernews-react.herokuapp.com/). 
 
 ### Actions
 
