@@ -17,11 +17,16 @@ export function fetchItem(id, cb) {
 
 export function fetchItems(ids, cb) {
   let items = []
+  let unsuccessful = 0
   ids.forEach((id) => {
     fetchItem(id, (item) => {
-      items.push(item)
+      if (item !== null) {
+        items.push(item)
+      } else {
+        unsuccessful++
+      }
       // use callback to accomplish what should be Promise.all()
-      if (items.length >= ids.length) {
+      if (items.length >= ids.length - unsuccessful) {
         cb(items)
       }
     })
